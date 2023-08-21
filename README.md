@@ -32,3 +32,11 @@ To run iR-RTD, first start both Kafka and PostgreSQL cloud-based services.
 - Start an iRacing Instance.
 - Select desired logging parameters, and click start.
 
+# Configuring PowerBI
+
+When choosing a data source in PowerBI, select `PostgreSQL Database`, and enter the IP of the database you are using. Do not enter the Port. Enter the name of the database you will be using, in my example this is simply `f1`, along with a username and password. 
+
+# Examples of iR-RTD Graphs
+
+For examples of iR-RTD in action and what it can produce, see the provided examples in `/examples/`.
+
